@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" type="text/css" href="styles.css"> 
+	<title>
+		<h1>Web Form</h1>
+	</title>
+<script src="java.js"></script>
+
+
+
+
+</head>
+
+<body>
+
+	<p>
+		To access my CV employers must fill out their Contact Information and CV Preference below.
+	</p>
+
+<div>
+<form name="web_form" action="/contactform.php" method="post">
+
+	<fieldset>
+		<legend>Contact Information</legend>
+	<input type="text" name="Fname" placeholder="First Name">
+	<input type="text" name="Surname" placeholder="Surname">
+	<input type="text" name="email" placeholder="Email Address">
+	<input type="text" name="LinkedIn" placeholder="LinkedIn">
+	<input type="text" name="Business" placeholder="Name of Business">
+	<input type="text" name="Address2" placeholder="Business Address">
+	<input type="text" name="Address3" placeholder="Town/City">
+	<input type="text" name="Postcode" placeholder="Postcode">
+	Shortened Version of CV: <input type="radio" name="CV" value="Shortened CV">
+	Full Version of CV: <input type="radio" name="CV" value="Full CV" checked="">
+
+	<button type="button" onclick="validateForm()">Submit</button>
+
+</fieldset>
+</div>
+	
+
+</form>
+
+	
+
+</body>
+</html>
