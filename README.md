@@ -1,1 +1,1 @@
-# CVRequest - This program implements HTML, CSS3 and Javascript to allow an employer to either fill out their contact details and selcect a version of my CV or access a key features report of the assignment. 
+# CVRequest - This program implements HTML, CSS3 and Javascript to allow an employer to either fill out their contact details and select a version of my CV or access a key features report of the assignment. 
